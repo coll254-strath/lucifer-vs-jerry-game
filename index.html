@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Snake vs Rat Game
+</title>
+<body>
+    <h1>Snake vs Rat</h1>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="600" height="480"></canvas>
+        <div id="gameOver" class="game-over">
+            <h2>GAME OVER</h2>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button id="restartBtn">Play Again</button>
+        </div>
+    </div>
+    <div class="game-info">
+        <div class="score-display">Score: <span id="score">0</span></div>
+        <div class="level-display">Level: <span id="level">1</span></div>
+        <div class="lives-display">Lives: <span id="lives">3</span></div>
+    </div>
+    <div class="controls">
+        <button id="startBtn">Start Game</button>
+        <button id="pauseBtn">Pause</button>
+    </div>
+<script src="game.js"></script>
+</body>
+</html>
