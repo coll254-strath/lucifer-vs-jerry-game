@@ -1,5 +1,5 @@
 const CELL_SIZE = 20;
-        const GRID_WIDTH = 600 / CELL_SIZE;
+        const GRID_WIDTH = 788 / CELL_SIZE;
         const GRID_HEIGHT = 480 / CELL_SIZE;
         const INITIAL_SNAKE_LENGTH = 5;
         const INITIAL_RAT_COUNT = 4;
